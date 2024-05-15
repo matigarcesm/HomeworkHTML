@@ -5,26 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<link rel="stylesheet" type="text/css" href="./estilos.css" />
+<body class="fondo">
 
+  
     <header>
-
-    <h1>Matias Garces - Fullstack Web Developer</h1>
-
+<div id="titulos">
+    <h1 class="title" id="principal">Matias Garces - Fullstack Web Developer</h1>
+</div>
+<div class="header">
     <span>HOME</span>
     <span>NOTICIAS</span>
     <span>CLIMA</span>
-
+</div>
     </header>
 
     <main>
-
-        <img src="fullstack.jpeg" alt="">
-
+<div class="foto">
+        <img src="fullstack.jpeg">
+</div>
         <section>
             <article>
     <h2>Proyectos</h2>
-    <h3>Estos son mis ultimos proyectos</h3>
+    <h3 class="title">Estos son mis ultimos proyectos</h3>
 <div>
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure illo quis nostrum soluta assumenda hic repellendus rerum repudiandae voluptatem unde, iusto perspiciatis. Quia sapiente sed dolore quam tenetur quidem veritatis.</p>
      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -35,7 +38,7 @@
     </article>
         <hr>
     <article>
-    <h3>Estos son los lugares donde he trabajado</h3>
+    <h3 class="title">Estos son los lugares donde he trabajado</h3>
     <p>Este es un listado de lugares donde he trabajado</p>
     <ol>
         <li>Google</li>
@@ -46,16 +49,25 @@
     </article>
     <hr>
     <article>
-    <h3>Estas son mis habilidades</h3>
+    <h3 class="title">Estas son mis habilidades</h3>
     <p>Este listado es sobre mis habilidades</p>
 
-    <ul>
-        <li>Javascript</li>
-        <li>Git/Github</li>
-        <li>HTML/CSS</li>
-        
-    </ul>
+ <div id="cards-container"> 
+    <div class="cards">  
+        <h4>GIT</h4>
+        <img src="Git.png" class="logos">
+    </div>     
+       
+    <div class="cards"> 
+        <h4>CSS</h4>
+        <img src="S.png" class="logos">
+    </div>   
     
+    <div class="cards">
+        <h4>HTML</h4>
+        <img src="html-5.png" class="logos">
+    </div>    
+</div>          
     <hr>
     </article>
 
